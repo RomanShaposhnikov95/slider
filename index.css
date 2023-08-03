@@ -272,5 +272,35 @@ ul {
     transform: scale3d(1, 1, 1);
   }
 }
+.tooltips-wrap {
+  margin-top: 100px;
+}
+.tooltips-wrap .container {
+  display: flex;
+  row-gap: 20px;
+  column-gap: 20px;
+  flex-wrap: wrap;
+}
+.tooltips-wrap-item {
+  position: relative;
+  max-width: 128px;
+  border: 1px solid black;
+  width: 120px;
+  height: 150px;
+}
+.tooltips-wrap-item .tooltip {
+  position: absolute;
+  top: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+  opacity: 0;
+  padding: 10px;
+  border-radius: 7px;
+  background-color: #292C33;
+}
+.tooltips-wrap-item:hover .tooltip {
+  opacity: 1;
+}
 
 /*# sourceMappingURL=index.css.map */

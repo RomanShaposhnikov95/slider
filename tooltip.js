@@ -22,7 +22,6 @@ function handleWindowResize() {
     });
 }
 
-
 window.addEventListener("load", handleWindowResize);
 
 window.addEventListener("resize", handleWindowResize);

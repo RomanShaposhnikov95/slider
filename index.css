@@ -361,5 +361,14 @@ ul {
     padding: 0;
   }
 }
+.portfolio {
+  margin-top: 120px;
+  margin-bottom: 50px;
+}
+.portfolio .container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 60px;
+}
 
 /*# sourceMappingURL=index.css.map */

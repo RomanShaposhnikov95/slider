@@ -436,3 +436,13 @@ ul {
     }
   }
 }
+
+.portfolio {
+  margin-top: 120px;
+  margin-bottom: 50px;
+  .container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 60px;
+  }
+}

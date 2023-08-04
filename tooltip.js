@@ -15,7 +15,7 @@ function adjustTooltipPosition(tooltip) {
 }
 
 function handleWindowResize() {
-    const tooltips = document.querySelectorAll(".tooltip");
+    const tooltips = document.querySelectorAll(".tooltip"); ///.tooltiper
 
     tooltips.forEach(tooltip => {
         adjustTooltipPosition(tooltip);

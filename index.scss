@@ -143,11 +143,10 @@ ul {
     margin-top: 40px;
 
     &-wrapper {
-
-
+      display: flex;
       .swiper-slide {
         background-color: pink;
-        height: 320px;
+        //height: 320px;
         width: 569px;
         border-radius: 7px;
         display: flex;
@@ -169,8 +168,11 @@ ul {
           left: 0;
           width: 100%;
           display: flex;
-          align-items: center;
           column-gap: 12px;
+          height: 195px;
+          align-items: flex-end;
+          background: linear-gradient(180deg, rgba(20,22,26,0) 0%, #14161A 100%);
+
 
           &-quote {
             height: 40px;
@@ -445,4 +447,9 @@ ul {
     flex-direction: column;
     row-gap: 60px;
   }
+}
+
+.portfolio .container img {
+  max-width: 100%;
+  object-fit: cover;
 }

@@ -116,9 +116,11 @@ ul {
   height: 300px;
   margin-top: 40px;
 }
+.client .swiper-wrapper {
+  display: flex;
+}
 .client .swiper-wrapper .swiper-slide {
   background-color: pink;
-  height: 320px;
   width: 569px;
   border-radius: 7px;
   display: flex;
@@ -139,8 +141,10 @@ ul {
   left: 0;
   width: 100%;
   display: flex;
-  align-items: center;
   column-gap: 12px;
+  height: 195px;
+  align-items: flex-end;
+  background: linear-gradient(180deg, rgba(20, 22, 26, 0) 0%, #14161A 100%);
 }
 .client .swiper-wrapper .swiper-slide-clientData-quote {
   height: 40px;
@@ -369,6 +373,11 @@ ul {
   display: flex;
   flex-direction: column;
   row-gap: 60px;
+}
+
+.portfolio .container img {
+  max-width: 100%;
+  object-fit: cover;
 }
 
 /*# sourceMappingURL=index.css.map */

@@ -47,6 +47,7 @@ ul {
   font-weight: 600;
   letter-spacing: -0.8px;
   line-height: 60px;
+  font-family: "SF Pro Display Semibold";
 }
 
 .descr {
@@ -54,6 +55,7 @@ ul {
   font-size: 17px;
   letter-spacing: 0;
   line-height: 30px;
+  font-family: "SF Pro Display Regular";
 }
 
 .section-one p {
@@ -82,6 +84,7 @@ ul {
   font-weight: bold;
   letter-spacing: -0.5px;
   line-height: 71px;
+  font-family: "SF Pro Display Bold";
 }
 .section-three-content a:nth-child(7n) {
   color: #292C33;
@@ -116,11 +119,12 @@ ul {
   font-weight: 600;
   letter-spacing: 0;
   line-height: 32px;
+  font-family: "SF Pro Display Semibold";
 }
 .section-four-content-item-wrap p {
   margin-top: 11px;
   color: #A1AAB3;
-  font-family: "SF Pro Display";
+  font-family: "SF Pro Display Regular";
   font-size: 17px;
   letter-spacing: 0;
   line-height: 24px;
@@ -145,6 +149,15 @@ ul {
   justify-content: center;
   row-gap: 39px;
   border-radius: 6px;
+}
+.section-five-links-item p {
+  color: #14161A;
+  font-family: "SF Pro Display";
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 32px;
+  text-align: center;
 }
 .section-five h1 {
   margin-bottom: 10px;
